@@ -1,0 +1,20 @@
+{
+  "parser-directories": ["src"],
+  "metadata": {
+    "language": "mumu",
+    "author": "Anonymous",
+    "scope": "source.mumu",
+    "file-types": ["mumu"],
+    "version": "0.1.0"
+  },
+  "grammars": [
+    {
+      "name": "mumu",
+      "camelcase": "MuMu",
+      "path": ".",
+      "scope": "source.mumu",
+      "file-types": ["mumu"],
+      "highlights": "queries/highlights.scm"
+    }
+  ]
+}
